@@ -27,7 +27,7 @@ public class HttpAspect {
     @Pointcut("execution(public * com.jcohy.exam.controller..*.*(..))")
     public void log() {
     }
-
+    //拦截 打印日志
     @Before("log()")
     public void doBefore(JoinPoint joinPoint) {
         startTime.set(System.currentTimeMillis());

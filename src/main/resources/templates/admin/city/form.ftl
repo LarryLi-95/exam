@@ -25,7 +25,7 @@
 <body>
 
 <fieldset id="dataList" class="layui-elem-field layui-field-title sys-list-field">
-    <legend style="text-align:center;">添加</legend>
+    <legend style="text-align:center;">添加/编辑</legend>
 </fieldset>
 <div class="container-fluid larry-wrapper">
     <div class="row">
@@ -56,7 +56,7 @@
                     <div class="layui-form-item" style="margin-top: 10px">
                         <label class="layui-form-label">城市名称</label>
                         <div class="layui-input-inline">
-                            <input type="text" name="name" lay-verify="required"  placeholder="请输入专业名称"
+                            <input type="text" name="name" lay-verify="required"  placeholder="请输入城市名称"
                                    value="${city.name}"
                                    autocomplete="off" class="layui-input ">
                         </div>

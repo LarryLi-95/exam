@@ -25,7 +25,7 @@
 <body>
 
 <fieldset id="dataList" class="layui-elem-field layui-field-title sys-list-field">
-    <legend style="text-align:center;">添加</legend>
+    <legend style="text-align:center;">添加/编辑</legend>
 </fieldset>
 <div class="container-fluid larry-wrapper">
     <div class="row">

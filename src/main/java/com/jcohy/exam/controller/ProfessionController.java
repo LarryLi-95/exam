@@ -55,7 +55,7 @@ public class ProfessionController extends BaseController {
     }
 
     /**
-     * 查询所有学校
+     * 查询所有专业
      *
      * @return
      */
